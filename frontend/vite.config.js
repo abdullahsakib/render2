@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/api": "https://django-backend.onrender.com",
+      "/api": "http://localhost:8000",
     },
   },
 });
