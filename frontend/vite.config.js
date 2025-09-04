@@ -1,4 +1,3 @@
-
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
@@ -11,5 +10,7 @@ export default defineConfig({
       "/api": "https://render33-7z0t.onrender.com",
     },
   },
+  preview: {
+    allowedHosts: ["render34-jrv1.onrender.com"],
+  },
 });
-
